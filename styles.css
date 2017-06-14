@@ -1,0 +1,38 @@
+.marginT{ margin-top: 1rem; }
+.marginT2{ margin-top: 4rem; }
+.marginL{ margin-left: 1rem; }
+.marginR{ margin-right: 1rem; }
+.marginTno{ margin-top: 0rem;}
+.marginBno{ margin-bottom: 0rem !important;}
+
+.t{ display: none;}
+
+.marginTless{ padding-top: 1rem;}
+
+.floatL{ float: left; }
+.floatR{ float: right; }
+.black{ color: black; }
+.blackL{ color: rgb(51, 51, 51); }
+.gray{ color: gray; }
+.smallText{ font-size: 1.7rem !important; }
+
+.TNR{ font-family: "Times New Roman", Times, serif; }
+
+.blueL{background-color: rgb(0, 188, 212)}
+.blueD{background-color: rgb(0, 165, 187)}
+
+.icon {
+        height: "10rem";
+        width: "10rem";
+}
+
+td { border-top: none !important;}
+
+#technicolor{
+    background-color: gray;
+    color: white;
+}
+#technicolor:hover{
+   color: white;
+   background-color: black;
+}
