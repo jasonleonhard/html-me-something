@@ -1,0 +1,11 @@
+{
+  "name": "html-me-something",
+  "version": "1.0.0",
+  "description": "html-me-something",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
