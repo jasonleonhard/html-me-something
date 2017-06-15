@@ -1,19 +1,23 @@
 .marginT{ margin-top: 1rem; }
-.marginT2{ margin-top: 4rem; }
 .marginL{ margin-left: 1rem; }
 .marginR{ margin-right: 1rem; }
+
+.marginT2{ margin-top: 4rem; }
+
 .marginTno{ margin-top: 0rem;}
 .marginBno{ margin-bottom: 0rem !important;}
 
-.t{ display: none;}
-
-.marginTless{ padding-top: 1rem;}
+.paddingTless{ padding-top: 1rem;}
+.paddingTno{ padding-top: 0rem !important;}
+.paddingBno{ padding-bottom: 0rem !important;}
 
 .floatL{ float: left; }
 .floatR{ float: right; }
+
 .black{ color: black; }
 .blackL{ color: rgb(51, 51, 51); }
 .gray{ color: gray; }
+
 .smallText{ font-size: 1.7rem !important; }
 
 .TNR{ font-family: "Times New Roman", Times, serif; }
@@ -25,6 +29,8 @@
         height: "10rem";
         width: "10rem";
 }
+
+.t{ display: none;}
 
 td { border-top: none !important;}
 
