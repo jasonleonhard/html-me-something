@@ -1,14 +1,17 @@
 // Not DRY, may refactor later
-function cat(){ $( ".cat" ).toggle(); }
-function computation(){ $( ".computation" ).toggle(); }
 function emailWebPhone(){ $( ".emailWebPhone" ).toggle(); }
-function fellows(){ $( ".fellows" ).toggle(); }
+function digits(){ $( ".digits" ).toggle(); }
+
+function computation(){ $( ".computation" ).fadeToggle(); }
+function projects(){ $( ".projects" ).fadeToggle(); }
+function fellows(){ $( ".fellows" ).fadeToggle(); }
+function interests(){ $( ".interests" ).fadeToggle(); }
+function professional(){ $( ".professional" ).fadeToggle(); }
+
+function cat(){ $( ".cat" ).toggle(); }
 function founder(){ $( ".founder" ).toggle(); }
 function hacker(){ $( ".hacker" ).toggle(); }
-function interests(){ $( ".interests" ).toggle(); }
 function launchcode(){ $( ".launchcode" ).toggle(); }
-function projects(){ $( ".projects" ).toggle(); }
-function professional(){ $( ".professional" ).toggle(); }
 function publication(){ $( ".publication" ).toggle(); }
 
 var state = document.getElementById("technicolor_btn").value="OFF";

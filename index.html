@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./stylesheets/normalize.css">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" async src="scripts.js"></script>
+    <script type="text/javascript" async src="./scripts/scripts.js"></script>
 </head>
 <body>
     <main>
@@ -40,8 +41,9 @@
                         </a>
                     </p>
                     <p class="col-xs-4">
-                        <a href="tel:503.268.2192" target="_blank" class="blackL">
+                        <a href="tel:740.527.06.11" target="_blank" class="blackL">
                             <span class="glyphicon glyphicon-earphone"></span>
+                            <span class="font_me"></span>
                         </a>
                     </p>
                 </div>
@@ -78,7 +80,7 @@
                 <div class="row t emailWebPhone">
                     <p class="marginBno"><a href="https://www.jasonleonhard.com" target="_blank" class="blackL" >https://www.jasonleonhard.com</a></p>
                     <p class="marginBno"><a href="mailto:leonhard.jason@gmail.com" target="_blank" class="blackL">leonhard.jason@gmail.com</a></p>
-                    <p class="marginBno"><a href="tel:503.268.2192" target="_blank" class="blackL">503.268.2192</a></p>
+                    <p class="marginBno"><a href="tel:740.527.06.11" target="_blank" class="blackL">740.JAS.0N11</a></p>
                     <p class="marginBno"><a href="https://github.com/jasonleonhard" target="_blank" class="blackL" >https://github.com/jasonleonhard</a></p>
                     <p class="marginBno"><a href="https://stackoverflow.com/users/1783588/jasonleonhard" target="_blank" class="blackL">https://stackoverflow.com/users/1783588/jasonleonhard</a></p>
                     <em>BTW: There are a lot of clickable items on this page</em>
@@ -86,76 +88,77 @@
             </section>
 
             <section class="container" onclick="computation()">
-            <div class="row">
-                <div class="col-xs-12 panel panel-default marginBno">
-                <table class="table table-condensed">
-                    <thead>
-                    <tr>
-                        <th><h3>Computation</h3></th>
-                        <th></th>
-                    </tr>
-                    </thead>
-                    <tbody class="t computation">
+                <div class="row">
+                    <div class="col-xs-12 panel panel-default marginBno">
                         <tr>
-                            <td><p>Languages</p></td>
-                            <td><p>Ruby, JavaScript, Python, CSS/SCSS/SASS, RexEx, HAML/HTML5/Slim, JSON/YAML/XML, MD, Bash, Z-shell</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Frameworks</p></td>
-                            <td><p>Ruby on Rails (RESTful API’s), Sinatra, Rack, Express.js</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Databases</p></td>
-                            <td><p>PostgreSQL, MySQL, SQLite (Relational/SQL), Redis (Non-relational/caching/memory)</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Testing</p></td>
-                            <td><p>Capybara (integration/end-to-end), Minitest, Rspec (unit & more)</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>JavaScript Ecosphere</p></td>
-                            <td><p>NPM, Node, Grunt, Yeoman, Bootstrap, jQuery, React</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Deployment/Hosting</p></td>
-                            <td><p>Heroku, DigitalOcean, DreamHost, WordPress</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Containers/VMs</p></td>
-                            <td><p>Vagrant, Docker, VirtualBox, VMware</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Webservers</p></td>
-                            <td><p>Puma, Unicorn, Thin, Nginx</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Scientific</p></td>
-                            <td><p>MATLAB, LabVIEW</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Version Control</p></td>
-                            <td><p>Git</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Web-scraping/Parsing</p></td>
-                            <td><p>Curl, wget, pup, jq, Nokogiri, Kimono, Lynx</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Hardware/Microcontrollers</p></td>
-                            <td><p>Arduino, Raspberry Pi (for robotics and servers)</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Operating Systems</p></td>
-                            <td><p>Mac OS X/Unix, GNU/Linux, Windows Win10/Win 8/Win 7/Vista/2000/XP/98/2000/XP</p></td>
-                        </tr>
-                        <tr>
-                            <td><p>Responsive Data Driven</p></td>
-                            <td><em>* Additional skills unlisted</em></td>
-                        </tr>
-                    </tbody>
-                    </table>
+                            <th><h3>Computation
+                                <small><span class="glyphicon glyphicon-menu-down"></span></small>
+                            </h3></th>
+
+                    <table class="table table-condensed marginBno">
+                        <thead>
+                        </thead>
+                        <tbody class="t computation">
+                            <tr>
+                                <td><p>Languages</p></td>
+                                <td><p>Ruby, JavaScript, Python, CSS/SCSS/SASS, RexEx, HAML/HTML5/Slim, JSON/YAML/XML, MD, Bash, Z-shell</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Frameworks</p></td>
+                                <td><p>Ruby on Rails (RESTful API’s), Sinatra, Rack, Express.js</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Databases</p></td>
+                                <td><p>PostgreSQL, MySQL, SQLite (Relational/SQL), Redis (Non-relational/caching/memory)</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Testing</p></td>
+                                <td><p>Capybara (integration/end-to-end), Minitest, Rspec (unit & more)</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>JavaScript Ecosphere</p></td>
+                                <td><p>NPM, Node, Grunt, Yeoman, Bootstrap, jQuery, React</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Deployment/Hosting</p></td>
+                                <td><p>Heroku, DigitalOcean, DreamHost, WordPress</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Containers/VMs</p></td>
+                                <td><p>Vagrant, Docker, VirtualBox, VMware</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Webservers</p></td>
+                                <td><p>Puma, Unicorn, Thin, Nginx</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Scientific</p></td>
+                                <td><p>MATLAB, LabVIEW</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Version Control</p></td>
+                                <td><p>Git</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Web-scraping/Parsing</p></td>
+                                <td><p>Curl, wget, pup, jq, Nokogiri, Kimono, Lynx</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Hardware/Microcontrollers</p></td>
+                                <td><p>Arduino, Raspberry Pi (for robotics and servers)</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Operating Systems</p></td>
+                                <td><p>Mac OS X/Unix, GNU/Linux, Windows Win10/Win 8/Win 7/Vista/2000/XP/98/2000/XP</p></td>
+                            </tr>
+                            <tr>
+                                <td><p>Responsive Data Driven</p></td>
+                                <td><em>* Additional skills unlisted</em></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
                 </div>
-            </div>
             </section>
 
             <section class="jumbotron text-center marginBno" onmouseover="launchcode()" onmouseout="launchcode()">
@@ -176,7 +179,9 @@
             <section class="container" onclick="projects()">
                 <div class="row">
                     <div class="col-xs-12 panel panel-default marginBno">
-                        <h3>Projects</h3>
+                        <th><h3>Projects
+                            <small><span class="glyphicon glyphicon-menu-down"></span></small>
+                        </h3></th>
                     </div>
                     <div class="t projects">
 
@@ -234,8 +239,9 @@
                 <table class="table table-condensed">
                     <thead>
                     <tr>
-                        <th><h3>Fellows</h3></th>
-                        <th></th>
+                        <th><h3>Fellows
+                            <small><span class="glyphicon glyphicon-menu-down"></span></small>
+                        </h3></th>
                     </tr>
                     </thead>
                     <tbody class="t fellows">
@@ -291,8 +297,10 @@
             <section class="container" onclick="professional()">
                 <div class="row">
                     <div class="col-xs-12 panel panel-default marginBno">
-                        <h3 class="">Professional Experience</a></h3>
-                    </div>
+                        <th><h3>Professional Experience
+                            <small><span class="glyphicon glyphicon-menu-down"></span></small>
+                        </h3></th>
+                   </div>
                 </div>
                 <div class="t professional">
                     <div class="row">
@@ -360,8 +368,10 @@
             <section class="container" onclick="interests()">
                 <div class="row">
                     <div class="col-xs-12 panel panel-default marginBno">
-                        <h3 class="">Interests</a></h3>
-                    </div>
+                        <th><h3>Interests
+                            <small><span class="glyphicon glyphicon-menu-down"></span></small>
+                        </h3></th>
+                   </div>
                 </div>
                 <div class="row t interests">
                     <div class="col-xs-12 panel panel-default marginBno">
