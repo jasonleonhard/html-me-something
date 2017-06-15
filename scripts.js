@@ -6,10 +6,10 @@ function fellows(){ $( ".fellows" ).toggle(); }
 function founder(){ $( ".founder" ).toggle(); }
 function hacker(){ $( ".hacker" ).toggle(); }
 function interests(){ $( ".interests" ).toggle(); }
+function launchcode(){ $( ".launchcode" ).toggle(); }
 function projects(){ $( ".projects" ).toggle(); }
 function professional(){ $( ".professional" ).toggle(); }
 function publication(){ $( ".publication" ).toggle(); }
-function launchcode(){ $( ".launchcode" ).toggle(); }
 
 var state = document.getElementById("technicolor_btn").value="OFF";
 function toggleTechnicolor(state) {
