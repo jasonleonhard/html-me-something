@@ -51,4 +51,10 @@ td { border-top: none !important;}
 .shrink_row{
   min-width: !important;
   margin-right: 0rem !important;
+  margin-left: 0rem !important;
 }
+
+.shrink {
+  font-size: 0.8em;
+  word-wrap: break-word;
+ }
