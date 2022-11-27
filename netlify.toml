@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "harp . build"
+  command = "npx -y harp . build"
   publish = "build"
   # functions = "netlify/functions"
 
