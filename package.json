@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "html-me-something",
   "scripts": {
-    "start": "harp server --port $PORT"
+    "start": "harp . --port 3000",
+    "was": "harp server --port $PORT"
   },
   "dependencies": {
     "harp": "*"
