@@ -4,7 +4,10 @@
   "description": "html-me-something",
   "scripts": {
     "start": "harp . --port 3000",
-    "was": "harp server --port $PORT"
+    "build": "harp . build --port 3000",
+    "was": "harp server --port $PORT # build was harp compile # publish was www",
+    "see": "open https://docs.netlify.com/integrations/frameworks/",
+    "see2": "open https://harpjs.com/"
   },
   "dependencies": {
     "harp": "*"
