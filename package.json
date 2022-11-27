@@ -9,7 +9,8 @@
     "was": "harp server --port $PORT # build was harp compile # publish was www",
     "see": "open https://docs.netlify.com/integrations/frameworks/",
     "see2": "open https://harpjs.com/",
-    "see3": "open netlify.toml"
+    "see3": "open netlify.toml",
+    "clean": "rm -rf node_modules; npm cache clean; npm install;"
   },
   "dependencies": {
     "harp": "*"
