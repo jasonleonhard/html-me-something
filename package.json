@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "html-me-something",
   "scripts": {
-    "start": "harp . --port 3000",
-    "build": "harp . build --port 3000",
+    "start": "npx -y harp . --port 9000",
+    "build": "npx -y harp . build",
     "was": "harp server --port $PORT # build was harp compile # publish was www",
     "see": "open https://docs.netlify.com/integrations/frameworks/",
     "see2": "open https://harpjs.com/"
