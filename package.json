@@ -14,5 +14,8 @@
   },
   "dependencies": {
     "harp": "*"
+  },
+  "devDependencies": {
+    "less": "^4.1.3"
   }
 }
