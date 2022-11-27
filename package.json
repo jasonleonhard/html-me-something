@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "html-me-something",
   "scripts": {
-    "start": "npx -y harp . --port 9000",
+    "dev": "npx -y harp . --port 3000",
     "build": "npx -y harp . build",
+    "start": "npx -y harp . --port 9000",
     "was": "harp server --port $PORT # build was harp compile # publish was www",
     "see": "open https://docs.netlify.com/integrations/frameworks/",
-    "see2": "open https://harpjs.com/"
+    "see2": "open https://harpjs.com/",
+    "see3": "open netlify.toml"
   },
   "dependencies": {
     "harp": "*"

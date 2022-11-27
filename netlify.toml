@@ -1,8 +1,8 @@
 # example netlify.toml
 [build]
-  command = "harp compile"
-  functions = "netlify/functions"
-  publish = "www"
+  command = "harp . build"
+  publish = "build"
+  # functions = "netlify/functions"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
